@@ -1,5 +1,21 @@
 .sidebar {
-    border: 1px solid black;
     height: 100vh;
-    flex: 0.2;
+    flex: 0.15;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100vh;
+    background-color: #040404;
+}
+
+@media (max-width: 990px) {
+    .sidebar {
+        min-width: 220px;
+    }
+}
+
+.sidebar__logo {
+    margin-right: auto;
+    height: 70px;
+    padding: 10px;
 }
